@@ -20,3 +20,11 @@ angka::angka(int i)
     isiData();
 }
 
+angka::~angka() 
+{
+    cout << endl;
+    cetakData();
+    delete[]arr;
+    cout << "Alamat Array Sudah Dilepaskan" << endl;
+}
+
